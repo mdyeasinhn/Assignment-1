@@ -1,0 +1,107 @@
+body {
+    font-family: 'Merriweather', serif;
+}
+
+/* banner section css */
+.banner {
+    background-image: url("../image/Banner\ Image.png");
+    width: 1320px;
+    height: 600px;
+    margin: 30px 140px;
+    border-radius: 16px;
+}
+
+.banner-contant {
+    color: #FFF;
+    text-align: center;
+    padding: 72px;
+}
+
+.banner-contant p {
+    font-size: 32px;
+    padding-top: 60px;
+    font-weight: 400;
+}
+
+.banner-contant h2 {
+    font-size: 60px;
+    font-weight: 900;
+    /* padding-bottom:70px ; */
+}
+
+/* banner section css end */
+
+/* offer section css */
+.offer {
+    margin-top: 80px;
+    text-align: center;
+    font-family: Inter;
+    color: #F00;
+    font-size: 88px;
+}
+
+.text {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.CATEGORIES {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    /* padding: 40px; */
+
+}
+
+.new-year-pic {
+    width: 802.9px;
+    height: 500px;
+    margin: 500px;
+}
+
+
+/* wellcome section css start */
+.wellcome {
+    background-image: url("../image/Vectorrr.png");
+    color: #FFF;
+    background-repeat: no-repeat;
+    font-size: 64px;
+    font-weight: 900;
+    width: 1320px;
+    height: 600px;
+    margin: 30px 140px;
+    border-radius: 16px;
+}
+
+.title {
+    padding: 120px 550px 390px 120px;
+
+}
+
+.dolor {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    /* padding: 320px 480px 210px 120px; */
+
+    font-weight: 400;
+}
+
+.area {
+    /* align-items: center; */
+    text-align: center;
+    background-image: url("");
+     background: (180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+.btn-primary {
+    border-radius: 8px;
+    background: #F00;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700px;
+    padding: 15px 35px;
+}
