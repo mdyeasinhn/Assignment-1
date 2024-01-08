@@ -1,4 +1,10 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
+
     font-family: 'Merriweather', serif;
 }
 
@@ -19,7 +25,7 @@ body {
 
 .banner-contant p {
     font-size: 32px;
-    padding-top: 60px;
+    padding-top: 150px;
     font-weight: 400;
 }
 
@@ -60,7 +66,7 @@ body {
 .new-year-pic {
     width: 802.9px;
     height: 500px;
-    margin: 500px;
+    margin-left: 450px;
 }
 
 
@@ -69,33 +75,76 @@ body {
     background-image: url("../image/Vectorrr.png");
     color: #FFF;
     background-repeat: no-repeat;
-    font-size: 64px;
+    /* font-size: 64px; */
     font-weight: 900;
     width: 1320px;
     height: 600px;
     margin: 30px 140px;
     border-radius: 16px;
+    display: flex;
 }
 
 .title {
-    padding: 120px 550px 390px 120px;
+    padding-top: 120px;
+    padding-left: 120px;
 
 }
 
-.dolor {
-    color: rgba(255, 255, 255, 0.80);
-    font-size: 18px;
-    /* padding: 320px 480px 210px 120px; */
+.title h3 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
 
+}
+
+.title p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
     font-weight: 400;
 }
 
-.area {
-    /* align-items: center; */
+.title button {
+    padding-top: 48px;
+    color: #FFF;
     text-align: center;
-    background-image: url("");
-     background: (180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
+
+.wellcome img {
+    padding-top: 68px;
+    padding-bottom: 68px;
+    padding-right: 130px;
+
+}
+
+.area {
+
+    text-align: center;
+    border-radius: 16px;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+
+    text-transform: capitalize;
+    padding-top: 80px;
+    padding-bottom: 170px;
+    padding-right: 380px;
+    padding-left: 380px;
+    font-family: Inter;
+    margin: 120px;
+
+}
+
+.area p {
+    font-size: 32px;
+}
+
+span {
+    color: #F00;
+}
+
 .btn-primary {
     border-radius: 8px;
     background: #F00;
@@ -104,4 +153,5 @@ body {
     font-size: 20px;
     font-weight: 700px;
     padding: 15px 35px;
+
 }
