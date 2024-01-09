@@ -114,10 +114,11 @@ body {
 }
 
 .title .btn {
-    padding-top: 48px;
+    background: none;
     color: #FFF;
+    padding-left: 40px;
+    border: 0;
     font-size: 20px;
-    font-weight: 700;
 }
 
 .wellcome img {
