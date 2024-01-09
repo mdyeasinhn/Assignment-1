@@ -235,7 +235,7 @@ span {
 footer {
     background: #070211;
     /* width: 75%; */
-    height: 200px;
+    height: 250px;
     padding: 120px;
 
 
@@ -264,6 +264,5 @@ footer {
     display: flex;
     color: #FFF;
     justify-content: space-between;
-
-
+    
 }
