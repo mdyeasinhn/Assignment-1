@@ -9,18 +9,17 @@ body {
     font-family: 'Merriweather', serif;
     margin-left: 30px;
     margin-right: 30px;
-    
+
 }
 
 /* banner section css */
-
-
 .banner {
     background-image: url("../image/Banner\ Image.png");
     height: 100vh;
     background-repeat: no-repeat;
     margin: 50px;
     border-radius: 16px;
+    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
 
 
 }
@@ -28,7 +27,7 @@ body {
 .banner-contant {
     color: #FFF;
     text-align: center;
-    /* padding: 72px; */
+    padding: 72px;
 }
 
 .banner-contant p {
@@ -76,7 +75,7 @@ body {
     width: 75%;
     margin: auto;
     height: 500px;
-    /* margin-left:  270px; */
+    margin-left: 140px;
 }
 
 
@@ -124,7 +123,7 @@ body {
 .wellcome img {
     padding-top: 68px;
     padding-bottom: 68px;
-    padding-right: 130px;
+    padding-right: 30px;
 
 }
 
@@ -167,7 +166,7 @@ span {
     margin: auto;
 }
 
-.gift-image-1 {}
+
 
 .gift-title {
     padding-bottom: 40px;
@@ -191,8 +190,8 @@ span {
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
     margin-top: 100px;
-    
-    
+
+
 }
 
 .email-pic {
@@ -210,13 +209,50 @@ span {
 .email-descrption input {
     border-radius: 50px;
     background: #FFF;
+    padding: 10px;
+    border: 0 ;
+}
+
+.email-descrption button {
+    padding: 10px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    border: 0;
 }
 
 footer {
-    display: flex;
     background: #070211;
-    color: #FFF;
-    width: 75%;
+    /* width: 75%; */
     height: 200px;
     padding: 120px;
+
+
+}
+
+.footer-top {
+    display: flex;
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 24px;
+    justify-content: space-between;
+
+}
+
+.social-icon {
+    display: block;
+    padding-top: 100px;
+    padding-left: 410px;
+}
+
+
+
+.footer-bottom {
+    font-family: Inter;
+    display: flex;
+    color: #FFF;
+    justify-content: space-between;
+
+
 }
